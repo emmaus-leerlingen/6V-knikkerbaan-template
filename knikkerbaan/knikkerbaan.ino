@@ -1,3 +1,5 @@
+#include "src/PCA9685/PCA9685.h"
+
 // globale variabelen
 int geteldeKnikkers = 0;
 unsigned long huidigeTijd = 0;
@@ -15,10 +17,18 @@ const int TELLERPIN = 3;
 // overige constanten
 const int SERIAL_PRINT_INTERVAL = 1000;
 
-
+// servodriver stuurt de servo's aan
+ServoDriver servodriver;
 
 void setup() {
+  // maak servodriver klaar voor gebruik
+  Wire.begin();
+  servodriver.init(0x7f);
+
+  // initieer seriële poort voor berichtjes
   Serial.begin(9600);
+
+  // stel de digitale pin voor de teller in als input
   pinMode(TELLERPIN, INPUT);
 }
 
