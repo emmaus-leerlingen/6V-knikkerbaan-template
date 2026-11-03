@@ -1,5 +1,5 @@
 # SPRINT 5 – MARBLE MANIA
-Periode: 12 januari - 25 januari
+Periode: 18 januari - 29 januari
 Aantal lessen: 
 
 Elke sprint duurt meestal twee weken en heeft meestal 4 lessen. 

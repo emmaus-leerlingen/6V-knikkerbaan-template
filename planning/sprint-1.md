@@ -1,5 +1,5 @@
 # SPRINT 1 – MARBLE MANIA
-Periode: 27 oktober - 16 november
+Periode: 26 oktober - 20 november
 Aantal lessen: 
 
 Elke sprint duurt meestal twee weken en heeft meestal 4 lessen. 
